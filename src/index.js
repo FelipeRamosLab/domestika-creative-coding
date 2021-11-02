@@ -1,12 +1,10 @@
 import $ from 'jquery';
-
 // Styles
 import './styles/global.scss';
-
+// Pages
 import Home from './pages/home.html';
-
-// Declare JQuery as global
-window.$ = $;
+// Scripts
+import './scripts/main';
 
 function Main(){
     const $FRJS = $('<div id="__FRJS"></div>');
@@ -19,3 +17,4 @@ function Main(){
 }
 
 $('body').append(Main());
+Main;
