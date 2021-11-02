@@ -1,0 +1,8 @@
+node_modules
+
+# FRJS
+dist
+public
+
+# FRJS - Exceptions
+!dist/index.html
